@@ -1,6 +1,6 @@
 # hashnode-cli
 
-Command line untilities for interacting with Hashnode and managing a Hashnode blog.
+Command line utilities for interacting with Hashnode.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/hashnode-cli.svg)](https://npmjs.org/package/hashnode-cli)
@@ -99,3 +99,17 @@ OPTIONS
 
 _See code: [src/commands/login.ts](https://github.com/vicradon/hashnode-cli/blob/v1.0.0/src/commands/login.ts)_
 <!-- commandsstop -->
+
+## Todo
+
+1. Add types to the inquirer-search-list package
+2. Add Delete functionality to the goals command
+3. Add cache invalidation to the tags
+4. Redirects users to login command if a token was revoked or expired
+
+## Disclaimer
+
+Hashnode delists posts that don't adhere to the [community guidelines](https://hashnode.com/code-of-conduct). This usually hapens if your post is too short or off-topic.
+If you make too many posts in a short period, **Hashnode will suspend your account**. Please have this in mind when using this CLI.
+
+The contributors to this CLI shall not be held responsible if any Hashnode account is suspended due to the use of this CLI.

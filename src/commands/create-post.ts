@@ -11,7 +11,8 @@ const util = require("util");
 const config = new Configstore("hashnode-cli");
 const readFile = util.promisify(fs.readFile);
 
-inquirer.registerPrompt("search-list", require("inquirer-search-list"));
+// This overwrites the default list prompt. Add types to the search list package in the future
+inquirer.registerPrompt("list", require("inquirer-search-list"));
 
 const graphqlWithAuth = graphql.defaults({
   baseUrl: "https://api.hashnode.com/graphql",
@@ -90,7 +91,7 @@ export default class CreatePost extends Command {
           const { tag } = await inquirer.prompt({
             name: `tag`,
             message: `input tag ${i} (enter 'none' to skip)?`,
-            type: "search-list",
+            type: "list",
             choices: tagCategories,
           });
 
