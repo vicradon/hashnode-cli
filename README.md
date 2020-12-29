@@ -109,7 +109,7 @@ _See code: [src/commands/login.ts](https://github.com/vicradon/hashnode-cli/blob
 
 ## Disclaimer
 
-Hashnode delists posts that don't adhere to the [community guidelines](https://hashnode.com/code-of-conduct). This usually hapens if your post is too short or off-topic.
+Hashnode deletes posts that don't adhere to the [community guidelines](https://hashnode.com/code-of-conduct). This usually hapens if your post is too short or off-topic.
 If you make too many posts in a short period, **Hashnode will suspend your account**. Please have this in mind when using this CLI.
 
 The contributors to this CLI shall not be held responsible if any Hashnode account is suspended due to the use of this CLI.
