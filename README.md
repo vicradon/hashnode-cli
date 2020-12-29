@@ -36,7 +36,6 @@ USAGE
 * [`hashnode-cli goals`](#hashnode-cli-goals)
 * [`hashnode-cli help [COMMAND]`](#hashnode-cli-help-command)
 * [`hashnode-cli login`](#hashnode-cli-login)
-* [`hashnode-cli remove [FILE]`](#hashnode-cli-remove-file)
 
 ## `hashnode-cli create-post`
 
@@ -87,7 +86,7 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.1
 
 ## `hashnode-cli login`
 
-authenticate using the oauth methods provided
+authenticate the CLI by pasting your developer token
 
 ```
 USAGE
@@ -99,20 +98,4 @@ OPTIONS
 ```
 
 _See code: [src/commands/login.ts](https://github.com/vicradon/hashnode-cli/blob/v1.0.0/src/commands/login.ts)_
-
-## `hashnode-cli remove [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ hashnode-cli remove [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-```
-
-_See code: [src/commands/remove.ts](https://github.com/vicradon/hashnode-cli/blob/v1.0.0/src/commands/remove.ts)_
 <!-- commandsstop -->

@@ -1,7 +1,7 @@
 {
   "name": "hashnode-cli",
   "description": "Command line untilities for interacting with Hashnode",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Osinachi Chukwujama @vicradon",
   "bin": {
     "hashnode-cli": "./bin/run"
